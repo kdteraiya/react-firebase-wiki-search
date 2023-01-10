@@ -1,0 +1,32 @@
+.scorecard-page .title {
+    text-align: center;
+}
+
+.scorecard-page .title h1 {
+    font-family: sourceSeriProFont;
+    font-size: 48px;
+    line-height: 1.25;
+    color: #17315b;
+}
+
+.scorecard-page .card {
+    margin-top: 10px;
+}
+
+.scorecard-page .results {
+    margin-top: 50px;
+}
+
+.timeDropdown {
+    border: 6px solid transparent;
+    background: #e5e5e5;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.scorecards h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.67;
+}

@@ -1,0 +1,49 @@
+.search-page h1,
+.search-page .search-box {
+    text-align: center;
+}
+
+.search-page h1 {
+    font-family: sourceSeriProFont;
+    font-size: 48px;
+    line-height: 1.25;
+    color: #17315b;
+}
+
+.search-page .search-box {
+    margin: auto;
+    width: 60%;
+}
+
+.search-page .search-box input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.search-page .search-box button {
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+.search-page .search-box button:hover {
+    background: #0b7dda;
+}
+
+.search-page .card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.search-page .results {
+    margin-top: 50px;
+}

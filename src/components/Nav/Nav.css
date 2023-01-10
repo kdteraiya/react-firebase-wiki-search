@@ -1,0 +1,38 @@
+.primary-header {
+    font-family: ColfaxAI, Helvetica, sans-serif;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(var(--fg), 1);
+}
+
+.primary-header .row {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.primary-header .logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 25px;
+}
+
+.primary-header ul {
+    margin-bottom: unset;
+}
+
+.primary-header ul li {
+    list-style-type: none;
+    vertical-align: baseline;
+}
+
+.primary-header ul li a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.primary-header ul li a.active {
+    opacity: 0.5;
+    color: #000000;
+}
